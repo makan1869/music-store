@@ -375,7 +375,3 @@ Date.now = Date.now || function() { return +new Date; };
 }(jQuery);
 
 
-storeApp = angular.module('Store', [])
-storeApp.controller('storeController', function($scope){
-
-});
